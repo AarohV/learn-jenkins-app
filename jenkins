@@ -19,6 +19,7 @@ pipeline{
                ls -la
                '''
             }
+        }
         stage('Hello'){
             steps{
                 echo'Hello World'
